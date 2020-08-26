@@ -1,0 +1,183 @@
+.app-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: content-box;
+}
+
+.Header-image {
+    background-size: contain;
+    width: 100%;
+    height: 270px;
+    max-width: 264px;
+    margin: 0 auto;
+}
+
+.Header-title {
+    color: #324168;
+    font-family: Poppins, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42px;
+    margin-bottom: 24px;
+}
+
+.Header-copy {
+    color: #707F8F;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 24px;
+}
+
+.Header-form {
+    border-radius: 12px;
+    -webkit-box-shadow: 0px 12px 32px rgba(131,155,179,0.16);
+    box-shadow: 0px 12px 32px rgba(131,155,179,0.16);
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+.NoHassle {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+
+.NoHassle span:not(:last-child) {
+    margin-right: 20px;
+}
+.NoHassle span {
+    white-space: nowrap;
+}
+
+.Header-form-input {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #162637;
+    font-family: Inter, sans-serif;
+    line-height: 22px;
+}
+
+.Header-form-input, .Header-form-button {
+    font-size: 18px;
+    padding: 20px 32px;
+    width: 100%;
+}
+
+.Header-form-button {
+    background-color: #324168;
+    color: #fff;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    line-height: 27px;
+    -webkit-transition: ease-in-out 200ms background-color;
+    transition: ease-in-out 200ms background-color;
+}
+
+.Header-form-button:hover{
+    background-color: #485d94;
+}
+
+input {
+    border: 0;
+    outline: none;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+}
+
+button, input {
+    overflow: visible;
+}
+
+@media (min-width: 800px){
+    .Header-form-button {
+        max-width: 215px;
+    }
+}
+
+@media (min-width: 800px){
+    .Header-image {
+        margin: initial;
+        height: 431px;
+        max-width: 515px;
+    }
+}
+
+@media (min-width: 800px){
+    .Header-form {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+@media (min-width: 800px){
+    .Header-form-wrapper {
+        max-width: 600px;
+        position: absolute;
+        width: 100%;
+    }
+}
+
+@media (min-width: 800px){
+    .Header header {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        margin-bottom: 120px;
+    }
+}
+
+@media (min-width: 1200px){
+    .app-container {
+        max-width: 1200px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+@media (min-width: 800px){
+    .Header-content {
+        margin-bottom: 107px;
+        max-width: 587px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 800px){
+    .Header-title {
+        font-size: 48px;
+        line-height: 73px;
+        margin-bottom: 16px;
+    }
+}
+
+@media (min-width: 800px){
+    .Header-copy {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 40px;
+    }
+}
+
+
+

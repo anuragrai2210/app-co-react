@@ -1,0 +1,127 @@
+.membership {
+    margin-bottom: 80px;
+    width: 1349px;
+}
+
+.costing-membership{ 
+    float:left;  
+    width:35%; 
+    padding-left: 50px;
+}
+
+.headerAlign{
+    font-size: 38px !important;
+    text-align: left !important;
+}
+
+.tilesFeatures{
+    margin-left: 75px;
+    margin-top: 15px;
+    float: left;
+    flex-wrap: wrap;
+    display: flex;
+    width: 58%;
+}
+
+.container-btn{
+    position: relative;
+    margin: 20px;
+}
+
+.membership-button{
+    width: 188px;
+    margin-top: 37px;
+    display: flex;
+    height: 57px;
+    margin-left: 20px;
+}
+
+.discount-yearly{
+    position: absolute;
+    left: 324px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    margin: 8px;
+    width: 52px;
+    height: 15px;
+    border-radius: 11.5px;
+    background-color: #39b54a;
+
+}
+
+.Pricing-switch {
+    background: #fff;
+    border-radius: 12px;
+    -webkit-box-shadow: 0px 24px 32px rgba(103,142,178,0.12);
+    box-shadow: 0px 24px 32px rgba(103,142,178,0.12);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 40px;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    outline:none;
+    z-index: 9;
+}
+
+*:focus {
+    outline: 0 !important;
+}
+
+.Pricing-switch span.is-active {
+    background-color: #324168;
+    color: #fff;
+}
+
+.Pricing-switch span {
+    border-radius: 6px;
+    color: #162637;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-weight: 700;
+    line-height: 22px;
+    padding: 16px 0;
+    -webkit-transition: ease-in-out 200ms all;
+    transition: ease-in-out 200ms all;
+}
+
+.Pricing-switch-monthly {
+    margin-right: 12px;
+}
+
+@media (min-width: 950px){
+    .Pricing-switch span {
+        font-size: 20px;
+        line-height: 24px;
+    }
+}
+
+@media (min-width: 950px){
+    .Pricing-switch-monthly {
+        margin-right: 16px;
+    }
+}
+
+
+@media (min-width: 800px){
+    .membership {
+        margin-bottom: 120px;
+    }
+}
+
+@media (min-width: 950px){   
+    .Pricing-switch {
+        padding: 16px;
+    }
+}
+
+
+@media (min-width: 950px){
+    .Pricing-switch {
+        margin-top: 35px;
+        max-width: 452px;
+    }
+}

@@ -1,0 +1,97 @@
+.indicator {
+    text-align: center;
+    height: 90px;
+}
+
+.box-image {
+    width: 65px;
+    height: 65px;
+    border-radius: 20px;
+    background-color: #b4cbe4;
+}
+
+.li-fit-content:hover .box-image{
+    transition: ease-in 200ms;
+    background-color: #324168;
+}
+
+.li-fit-content {
+    width: 346px !important;
+    height: 90px !important;
+    position: unset !important;
+    padding: 12px 0px 0px 12px !important;
+    cursor: pointer;
+    margin-bottom: 12px;
+    flex-wrap: wrap;
+    display: inline-table;
+}
+
+.img-centre {
+    margin: 16px;
+}
+
+.li-fit-left { 
+    float:left; 
+    width: 24%; 
+    height: 66px; 
+} 
+.li-fit-right{ 
+    padding-top: 8px;
+    float:left;  
+    width:72%; 
+    height: 66px; 
+    text-align: left;
+}
+
+.main-li-heading{
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #394d84;
+}
+
+.li-description{
+    font-family: Poppins, sans-serif;
+    display: flex;
+    font-size: small;
+}
+
+.img-width-height{
+    width: 550px;
+}
+
+.react-slideshow-container {
+    display: flex;
+    width: 45%;
+    align-items: center;
+    float: right;
+    padding-right: 36px;
+}
+
+.react-slideshow-container+div.indicators {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 55px;
+    height: 376px;
+    width: 55%;
+}
+
+.indicator .li-fit-content:hover{
+    /* background: #ebeeee;
+    border-radius: 6px; */
+    transition: ease-in-out 200ms all;
+}
+ 
+.indicator.active {
+    background: #ebeeee;
+    transition: ease-in-out 200ms all;
+    border-radius: 6px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.indicator.active .li-fit-content .box-image{
+    transition: ease-in 200ms;
+    background-color: #324168;
+}
